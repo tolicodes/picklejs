@@ -1,0 +1,71 @@
+{
+  "recorded_at_utc": "2026-10-08T03:57:36.121857+00:00",
+  "source_sha": "9fbc8ad84bfc251a0e1f98482e97fb0ab9872919",
+  "source_subject": "docs: restore PickleJS website for picklejs.toli.me",
+  "upstream_sha": "a73995ad8154a3396e3931eea3f139dda843b5b7",
+  "repository": "https://github.com/tolicodes/picklejs",
+  "site_id": "9d08dc94-9f99-4e43-9d85-395e29c50c0a",
+  "deploy_id": "6ac713db9d83e7a4a076de72",
+  "deploy_state": "ready",
+  "published_at": "2026-10-08T03:54:05.096Z",
+  "url": "https://picklejs.toli.me",
+  "dns": {
+    "type": "CNAME",
+    "name": "picklejs.toli.me",
+    "target": "focused-yalow-c31386.netlify.app",
+    "proxied": false,
+    "verified_servers": [
+      "achiel.ns.cloudflare.com",
+      "bingo.ns.cloudflare.com",
+      "1.1.1.1"
+    ]
+  },
+  "tls": {
+    "trusted_https_verified": true,
+    "http_redirect_status": 301,
+    "served_certificate_subject": "*.toli.me",
+    "issuer": "Let\u2019s Encrypt YE1",
+    "not_before_utc": "2026-10-06T13:24:41Z",
+    "not_after_utc": "2027-01-04T13:24:40Z",
+    "provider_api_limitation": "The site-specific certificate API still returned its expired picklejs.com certificate; provision endpoint returned 422. Actual edge serves a valid covering toli.me wildcard. A future renewal cycle was not observed."
+  },
+  "verification": {
+    "build_runtime": "Node 22 (Docusaurus 1.14.7); also Node 26",
+    "html_pages": 31,
+    "local_references": 708,
+    "broken_local_references": 0,
+    "public_files_verified": 49,
+    "all_files_pass": true,
+    "html_transform": "Netlify Pretty URLs removes .html from relative href attributes; all parsed HTML otherwise matches build. Other assets match exact bytes.",
+    "routes": [
+      {
+        "path": "/phrases",
+        "status": 301,
+        "location": "https://picklejs.toli.me/docs/phrases",
+        "tls_verify": 0
+      },
+      {
+        "path": "/getting-started",
+        "status": 301,
+        "location": "https://picklejs.toli.me/docs/getting-started",
+        "tls_verify": 0
+      },
+      {
+        "path": "/docs/en/phrases",
+        "status": 301,
+        "location": "https://picklejs.toli.me/docs/phrases",
+        "tls_verify": 0
+      },
+      {
+        "path": "/license",
+        "status": 200,
+        "location": null,
+        "tls_verify": 0
+      }
+    ],
+    "browser": "Homepage, original slides embed and Getting Started navigation rendered on the custom host.",
+    "npm_library_tests": "Not run: documentation restoration does not change or verify current Cypress library compatibility."
+  },
+  "source_connection": "Manual deployment of committed source; Netlify Git build configuration still references archived hoverinc/picklejs. Source copy is pushed to tolicodes/picklejs/master.",
+  "original_domain": "picklejs.com remains expired; no registration recovery/renewal performed."
+}
