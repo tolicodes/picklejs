@@ -20,7 +20,9 @@ PickleJS is an addon for the Cucumber plugin for Cypress allowing automatic stor
 yarn add --dev picklejs
 ```
 
-Further documentation (including available phrases, getting started, etc) is maintained on [PickleJS.com](https://picklejs.com)
+Further documentation (including available phrases, getting started, etc) is preserved at [picklejs.toli.me](https://picklejs.toli.me).
+
+The documentation host was restored October 7, 2026. The library remains archived upstream; restoration does not imply renewed library maintenance. See [ARCHITECTURE.md](ARCHITECTURE.md) for source provenance, build and deployment details.
 
 ## Maintenance
 

@@ -1,3 +1,4 @@
+// Modified October 7, 2026: restore documentation under picklejs.toli.me.
 // // List of projects/orgs using your project for the users page.
 // const users = [
 //   {
@@ -11,7 +12,7 @@
 const siteConfig = {
   title: 'PickleJS', // Title for your website.
   tagline: 'Cucumber with Brine',
-  url: 'https://picklejs.com', // Your website URL
+  url: 'https://picklejs.toli.me', // Restored documentation URL
   baseUrl: '/', // Base URL for your project */
 
   // Used for publishing and more

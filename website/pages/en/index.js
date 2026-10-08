@@ -1,3 +1,4 @@
+// Modified October 7, 2026: identify the restored documentation as archived.
 const Iframe = require('react-iframe').default;
 const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
@@ -71,6 +72,10 @@ class HomeSplash extends React.Component {
       <SplashContainer>
         <div className="inner">
           <ProjectTitle />
+          <p>
+            Archived documentation. PickleJS is no longer actively maintained by HOVER.
+            {' '}<a href="https://github.com/hoverinc/picklejs#maintenance">Maintenance status</a>
+          </p>
           <PromoSection>
             <Button href="/docs/getting-started">Get Started</Button>
             <Button href="https://github.com/hoverinc/picklejs">Github</Button>

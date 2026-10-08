@@ -1,0 +1,29 @@
+[build]
+  base = "website"
+  command = "npm ci --ignore-scripts --legacy-peer-deps --no-audit --no-fund && npm run build"
+  publish = "build/picklejs"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NODE_OPTIONS = "--openssl-legacy-provider"
+  CYPRESS_INSTALL_BINARY = "0"
+
+[[redirects]]
+  from = "/phrases"
+  to = "/docs/phrases"
+  status = 301
+
+[[redirects]]
+  from = "/getting-started"
+  to = "/docs/getting-started"
+  status = 301
+
+[[redirects]]
+  from = "/docs/en/*"
+  to = "/docs/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/license"
+  to = "/LICENSE.txt"
+  status = 200

@@ -1,10 +1,11 @@
+// Modified October 7, 2026: preserve upstream maintenance status on every page.
 const React = require('react');
 const gtm = require('react-google-tag-manager').default;
 
 class Footer extends React.Component {
   docUrl(doc, language) {
     const baseUrl = this.props.config.baseUrl;
-    return `${baseUrl}docs/${language ? `${language}/` : ''}${doc}`;
+    return `${baseUrl}docs/${doc}`;
   }
 
   pageUrl(doc, language) {
@@ -31,7 +32,7 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Docs</h5>
-            <a href={this.docUrl('getting-started.html', this.props.language)}>
+            <a href={this.docUrl('getting-started', this.props.language)}>
               Getting Started
             </a>
           </div>
@@ -65,6 +66,10 @@ class Footer extends React.Component {
         </section>
 
         <section className="copyright">Open Source By <a href="http://hoverinc.com">@hoverinc</a> from <a href="http://hover.to">HOVER</a> </section>
+        <section className="copyright">
+          Archived documentation restored by Toli.{' '}
+          <a href="https://github.com/hoverinc/picklejs#maintenance">Library maintenance status</a>
+        </section>
       </footer>
     );
   }

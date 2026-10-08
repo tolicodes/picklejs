@@ -4,11 +4,13 @@ title: Getting Started
 sidebar_label: Getting Started
 ---
 
+<!-- Modified October 7, 2026: restored example URLs and corrected documentation routes. -->
+
 # Installing
 ## Install Cypress
 We assume that you are familiar with the Cypress framework. Follow [these instructions](https://docs.cypress.io/guides/getting-started/installing-cypress.html) for setup. 
 
-[Here's our recommended installation](recommended-cypress-setup)
+[Here's our recommended installation](/docs/recommended-cypress-setup)
 
 ## Add The Dependency
 ```
@@ -55,9 +57,9 @@ This goes at the top level of your test files. You will put the URLs of all your
 
 ```
 {
-    "Home Page": "https://picklejs.com/",
-    "Phrases": "https://picklejs.com/phrases",
-    "Getting Started": "https://picklejs.com/getting-started"
+    "Home Page": "https://picklejs.toli.me/",
+    "Phrases": "https://picklejs.toli.me/docs/phrases",
+    "Getting Started": "https://picklejs.toli.me/docs/getting-started"
 }
 ```
 
