@@ -67,7 +67,7 @@ class Footer extends React.Component {
 
         <section className="copyright">Open Source By <a href="http://hoverinc.com">@hoverinc</a> from <a href="http://hover.to">HOVER</a> </section>
         <section className="copyright">
-          Archived documentation restored by Toli.{' '}
+          Archived documentation restored by <a href="https://tolicodes.com/#code">Toli</a>.{' '}
           <a href="https://github.com/hoverinc/picklejs#maintenance">Library maintenance status</a>
         </section>
       </footer>
