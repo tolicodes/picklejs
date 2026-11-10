@@ -1,6 +1,5 @@
 // Modified October 7, 2026: preserve upstream maintenance status on every page.
 const React = require('react');
-const gtm = require('react-google-tag-manager').default;
 
 class Footer extends React.Component {
   docUrl(doc, language) {
@@ -16,9 +15,6 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="nav-footer" id="footer">
-        {gtm({
-          id: 'GTM-NHTTBWB'
-        }).scriptAsReact()}
         <section className="sitemap">
           <a href={this.props.config.baseUrl} className="nav-home">
             {this.props.config.footerIcon && (
